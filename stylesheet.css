@@ -1,1 +1,149 @@
+a:link, a:visited, a:active{
+	color:#222;
 
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.header{
+	position:relative;
+	top:0px;
+	padding-top:15px;
+}
+
+.right{
+	float:right;
+}
+
+.header-link, .apps, .sign-in{
+	display:inline-block;
+	vertical-align:middle;
+	font:small arial, sans-serif;
+	padding:0px 15px 0px 0px;
+	opacity:0.85;
+
+}
+
+.apps{
+	height:30px;
+	width:30px;
+	background-image:url("https://ssl.gstatic.com/gb/images/v1_8758f7bb.png");
+	background-size:92px 2541px;
+	background-position:-35px -311px;
+	padding:0px;
+	opacity:0.85;
+}
+
+.header input{
+	border:none;
+	background:rgb(67,135,253);
+	color:white;
+	font-weight:bold;
+	font-size:13px;
+	padding:0px 12px;
+	line-height:28px;
+	margin:0px 10px;
+	opacity:1.00;
+}
+
+.search{
+	position:relative;
+	top:50px;
+	height:363px;
+	width:1288px;
+
+}
+
+.logo{
+	position:absolute;
+	margin-left:515px;
+	margin-top:133px;
+}
+
+.search img{
+	width:272px;
+	height:auto;
+	display:block;
+}
+
+.search-bar input{
+	width:566px;
+	height:38px;
+	padding:0px 8px;
+	position:absolute;
+	margin-left:364px;
+	margin-top:256px;
+	display:block;
+	border-radius:1px;
+	border:1px solid rgb(185,185,185);
+	outline:0px;
+	line-height:26px;
+	font:16px arial,sans-serif;
+}
+
+.search-buttons{
+	position:absolute;
+	margin-top:325px;
+	margin-left:500px;
+	display:block;
+}
+
+.search-buttons input{
+	border:none;
+	background:rgb(242,242,242);
+	color:rgb(117,117,117);
+	font-size:13px;
+	font-family: arial,sans-serif;
+	font-weight:bold;
+	padding:0px 12px;
+	line-height:28px;
+	margin:0px 10px;
+	opacity:1.00;
+	display:inline-block;
+	margin:0px 4px;
+	height:36px;
+	padding:0px 16px;
+}
+
+.footer{
+	position:relative;
+	float:bottom;
+	display:block;
+	background-color:rgb(242,242,242);
+	height:40px;
+	width:auto;
+	bottom:-250px;
+}
+.l-footer{
+	position:relative;
+	float:left;
+	display:inline-block;
+}
+
+.l-footer a{
+	position:relative;
+	padding:0px 0px 0px 27px;
+	top:12px;
+	color:rgb(102,102,102);
+	font-size:13px;
+	font-family:arial,sans-serif;
+}
+
+.r-footer{
+	position:relative;
+	float:right;
+	display:inline-block;
+
+}
+
+.r-footer a{
+	position:relative;
+	padding:0px 27px 0px 0px;
+	top:12px;
+	color:rgb(102,102,102);
+	font-size:13px;
+	font-family:arial,sans-serif;
+}
